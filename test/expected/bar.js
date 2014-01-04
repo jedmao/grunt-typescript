@@ -1,0 +1,3 @@
+﻿var bar = {
+    baz: 'qux'
+};
