@@ -33,8 +33,15 @@ module.exports = function(grunt) {
         }
       });
 
-      options.outDir = f.dest;
+      if (f.dest !== '') {
+        options.outDir = f.dest;
+      }
       grunt.log.debug('TypeScript flags:', options);
+
+      if (!src.length) {
+        grunt.log.debug('No files to compile');
+        return;
+      }
 
       ts.compile(src, options, function(err, results) {
         if (err) {
