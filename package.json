@@ -1,7 +1,7 @@
 {
   "name": "grunt-typescript-compile",
   "description": "Grunt plugin to compile TypeScript.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jedmao/grunt-typescript",
   "author": {
     "name": "Jed Mao",
