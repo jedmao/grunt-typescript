@@ -2,7 +2,7 @@
 
 > Grunt plugin to compile TypeScript.
 
-This version is compatable with TypeScript 0.9.5.
+This version is compatable with TypeScript 0.9.7.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.2`

@@ -1,7 +1,7 @@
 {
   "name": "grunt-typescript-compile",
   "description": "Grunt plugin to compile TypeScript.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/jedmao/grunt-typescript",
   "author": {
     "name": "Jed Mao",
@@ -29,8 +29,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "ts-compiler": "~1.0.5",
-    "typescript": "~0.9.5"
+    "ts-compiler": "~1.1.0",
+    "typescript": "~0.9.7"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
